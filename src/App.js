@@ -7,6 +7,17 @@ class App extends Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    const urls = ["https://google.com",
+                  "https://facebook.com",
+                  "https://bing.com",
+                  "https://wikiedia.org",
+                  "https://espn.com"];
+
+    const tags = ["search engine", "social media", "reference", "sports"];
+
+    this.setState({urls, tags});
+  }
 
   render() {
 
