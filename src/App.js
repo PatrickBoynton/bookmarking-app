@@ -28,12 +28,16 @@ class App extends Component {
   }
 
   render() {
-
+    const tags = this.state.tags?.map((tag, index) =>(
+        <li>
+            <button>{tag}</button>
+        </li>
+    ))
 
     return (
         <div className="App">
             <ul>
-
+                {tags}
             </ul>
         </div>
     );
