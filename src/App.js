@@ -8,28 +8,22 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const urls = ["https://google.com",
-                  "https://facebook.com",
-                  "https://bing.com",
-                  "https://wikiedia.org",
-                  "https://espn.com"];
+    const urlTags = [
+        {url: "https://google.com", tag: "search engine"},
+        {url: "https://facebook.com", tag: "social media"},
+        {url: "https://bing.com", tag: "search engine"},
+        {url: "https://wikipedia.org", tag: "reference"},
+        {url: "https://developer.mozilla.org/en-US/", tag: "reference"},
+        {url: "https://twitter.com", tag: "social media"}
+    ]
 
-    const tags = ["search engine", "social media", "reference", "sports"];
-
-    this.setState({urls, tags});
+    this.setState({urlTags});
   }
 
   render() {
-      const tags = this.state.tags?.map((tag, index) => (
-          <li key={index}>
-              <button>{tag}</button>
-          </li>
-      ));
+
     return (
         <div className="App">
-            <ul>
-                {tags}
-            </ul>
         </div>
     );
   }
