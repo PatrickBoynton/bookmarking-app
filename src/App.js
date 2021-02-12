@@ -20,9 +20,15 @@ class App extends Component {
   }
 
   render() {
-
+      const tags = this.state.tags?.map((tag, index) => (
+          <li key={index}>
+              <a href="#">{tag}</a>
+          </li>
+      ));
     return (
         <div className="App">
+            <ul>
+            </ul>
         </div>
     );
   }
