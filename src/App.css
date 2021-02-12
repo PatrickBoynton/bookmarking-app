@@ -15,3 +15,6 @@ button:hover{
   color: #AF58AF;
   border-color: #AF58AF;
 }
+button:focus{
+  outline: none;
+}
