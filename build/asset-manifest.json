@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bookmarking-app/static/css/main.f3438689.chunk.css",
+    "main.js": "/bookmarking-app/static/js/main.9b472e8f.chunk.js",
+    "main.js.map": "/bookmarking-app/static/js/main.9b472e8f.chunk.js.map",
+    "runtime-main.js": "/bookmarking-app/static/js/runtime-main.0ca57087.js",
+    "runtime-main.js.map": "/bookmarking-app/static/js/runtime-main.0ca57087.js.map",
+    "static/js/2.49e86e3a.chunk.js": "/bookmarking-app/static/js/2.49e86e3a.chunk.js",
+    "static/js/2.49e86e3a.chunk.js.map": "/bookmarking-app/static/js/2.49e86e3a.chunk.js.map",
+    "static/js/3.95407c23.chunk.js": "/bookmarking-app/static/js/3.95407c23.chunk.js",
+    "static/js/3.95407c23.chunk.js.map": "/bookmarking-app/static/js/3.95407c23.chunk.js.map",
+    "index.html": "/bookmarking-app/index.html",
+    "static/css/main.f3438689.chunk.css.map": "/bookmarking-app/static/css/main.f3438689.chunk.css.map",
+    "static/js/2.49e86e3a.chunk.js.LICENSE.txt": "/bookmarking-app/static/js/2.49e86e3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ca57087.js",
+    "static/js/2.49e86e3a.chunk.js",
+    "static/css/main.f3438689.chunk.css",
+    "static/js/main.9b472e8f.chunk.js"
+  ]
+}
